@@ -1,0 +1,88 @@
+
+[2025-04-29 10:18:32]
+--------------------------------------------------
+Traceback (most recent call last):
+  File "D:\siri\calipers\prometrix\prometrix\SmartMetrology_Design_new.py", line 19, in <module>
+    from graphics import CustomGraphicsView
+  File "D:\siri\calipers\prometrix\prometrix\graphics.py", line 18, in <module>
+    from algorithms import ClusterDetector
+ImportError: cannot import name 'ClusterDetector' from 'algorithms' (D:\siri\calipers\prometrix\prometrix\algorithms.py)
+
+[2025-04-29 10:21:51]
+--------------------------------------------------
+Traceback (most recent call last):
+  File "D:\siri\calipers\prometrix\prometrix\SmartMetrology_Design_new.py", line 19, in <module>
+    from graphics import CustomGraphicsView
+  File "D:\siri\calipers\prometrix\prometrix\graphics.py", line 18, in <module>
+    from algorithms import ClusterDetector
+ImportError: cannot import name 'ClusterDetector' from 'algorithms' (D:\siri\calipers\prometrix\prometrix\algorithms.py)
+
+[2025-04-29 10:23:21]
+--------------------------------------------------
+Traceback (most recent call last):
+  File "D:\siri\calipers\prometrix\prometrix\SmartMetrology_Design_new.py", line 20, in <module>
+    from algorithms import DimensionParser, ImageProcessor, BoundingBoxUtils, ClusterDetector, OCRProcessor,ZoneDetector
+ImportError: cannot import name 'ClusterDetector' from 'algorithms' (D:\siri\calipers\prometrix\prometrix\algorithms.py)
+
+[2025-04-29 10:23:33]
+--------------------------------------------------
+Traceback (most recent call last):
+  File "D:\siri\calipers\prometrix\prometrix\SmartMetrology_Design_new.py", line 20, in <module>
+    from algorithms import DimensionParser, ImageProcessor, BoundingBoxUtils, ClusterDetector, OCRProcessor,ZoneDetector
+ImportError: cannot import name 'ClusterDetector' from 'algorithms' (D:\siri\calipers\prometrix\prometrix\algorithms.py)
+
+[2025-04-29 10:24:16]
+--------------------------------------------------
+Traceback (most recent call last):
+  File "D:\siri\calipers\prometrix\prometrix\SmartMetrology_Design_new.py", line 19, in <module>
+    from graphics import CustomGraphicsView
+  File "D:\siri\calipers\prometrix\prometrix\graphics.py", line 18, in <module>
+    from algorithms import ClusterDetector
+ImportError: cannot import name 'ClusterDetector' from 'algorithms' (D:\siri\calipers\prometrix\prometrix\algorithms.py)
+
+[2025-04-29 10:31:14]
+--------------------------------------------------
+Traceback (most recent call last):
+  File "D:\siri\calipers\prometrix\prometrix\graphics.py", line 132, in mousePressEvent
+    EventHandler.mousePressEvent(self, event)
+  File "D:\siri\calipers\prometrix\prometrix\events.py", line 61, in mousePressEvent
+    if stored_bbox and view.compare_bboxes(bbox_points, stored_bbox):
+  File "D:\siri\calipers\prometrix\prometrix\graphics.py", line 127, in compare_bboxes
+    if abs(p1[0] - p2[0]) > threshold or abs(p1[1] - p2[1]) > threshold:
+TypeError: 'float' object is not subscriptable
+
+[2025-04-29 10:31:28]
+--------------------------------------------------
+Traceback (most recent call last):
+  File "D:\siri\calipers\prometrix\prometrix\graphics.py", line 132, in mousePressEvent
+    EventHandler.mousePressEvent(self, event)
+  File "D:\siri\calipers\prometrix\prometrix\events.py", line 61, in mousePressEvent
+    if stored_bbox and view.compare_bboxes(bbox_points, stored_bbox):
+  File "D:\siri\calipers\prometrix\prometrix\graphics.py", line 127, in compare_bboxes
+    if abs(p1[0] - p2[0]) > threshold or abs(p1[1] - p2[1]) > threshold:
+TypeError: 'float' object is not subscriptable
+
+[2025-04-29 10:31:28]
+--------------------------------------------------
+Traceback (most recent call last):
+  File "D:\siri\calipers\prometrix\prometrix\graphics.py", line 132, in mousePressEvent
+    EventHandler.mousePressEvent(self, event)
+  File "D:\siri\calipers\prometrix\prometrix\events.py", line 61, in mousePressEvent
+    if stored_bbox and view.compare_bboxes(bbox_points, stored_bbox):
+  File "D:\siri\calipers\prometrix\prometrix\graphics.py", line 127, in compare_bboxes
+    if abs(p1[0] - p2[0]) > threshold or abs(p1[1] - p2[1]) > threshold:
+TypeError: 'float' object is not subscriptable
+
+[2025-04-29 13:55:38]
+--------------------------------------------------
+Traceback (most recent call last):
+  File "D:\siri\calipers\prometrix\prometrix\SmartMetrology_Design_new.py", line 1001, in show_table_context_menu
+    self.connect_to_device(row)
+TypeError: MainWindow.connect_to_device() takes 1 positional argument but 2 were given
+
+[2025-04-29 13:55:41]
+--------------------------------------------------
+Traceback (most recent call last):
+  File "D:\siri\calipers\prometrix\prometrix\SmartMetrology_Design_new.py", line 1001, in show_table_context_menu
+    self.connect_to_device(row)
+TypeError: MainWindow.connect_to_device() takes 1 positional argument but 2 were given
